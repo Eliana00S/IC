@@ -4,7 +4,7 @@ project:
   title:        "Odd or even"      # Project title
   author:       "Eliana"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "if the input is odd the green LED lights up and if its even then the red LED lights up"      # One line description of what your project does
+  description:  "odd or even input"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -26,12 +26,12 @@ pinout:
 
   # Outputs
   uo[0]: "OUT0"
-  uo[1]: "OUT1"
-  uo[2]: "OUT2"
-  uo[3]: "OUT3"
-  uo[4]: "OUT4"
-  uo[5]: "OUT5"
-  uo[6]: "OUT6"
+  uo[1]: ""
+  uo[2]: ""
+  uo[3]: ""
+  uo[4]: ""
+  uo[5]: ""
+  uo[6]: ""
   uo[7]: "OUT7"
 
   # Bidirectional pins
